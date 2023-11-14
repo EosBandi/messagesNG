@@ -1,0 +1,138 @@
+6,Barometer 1 calibration complete
+6,Barometer 2 calibration complete
+6,Airspeed 1 calibration started
+6,ArduPilot Ready
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,RCOut: PWM:1-14
+6,GPS 1: specified as UAVCAN1-125
+6,Mission Planner 1.3.80
+6,Mission Planner 1.3.80
+6,Mission Planner 1.3.80
+6,Airspeed 1 calibrated
+6,EKF3 IMU0 initialised
+6,EKF3 IMU1 initialised
+6,ArduPlane V4.3.1 (7d0c6e4d)
+6,ChibiOS: 66e5de0d
+6,CubeOrangePlus 003D0020 30325111 37363931
+6,RCOut: PWM:1-14
+6,ArduPlane V4.3.1 (7d0c6e4d)
+6,ChibiOS: 66e5de0d
+6,CubeOrangePlus 003D0020 30325111 37363931
+6,RCOut: PWM:1-14
+6,ArduPlane V4.3.1 (7d0c6e4d)
+6,ChibiOS: 66e5de0d
+6,CubeOrangePlus 003D0020 30325111 37363931
+6,RCOut: PWM:1-14
+6,EKF3 IMU0 tilt alignment complete
+6,EKF3 IMU1 tilt alignment complete
+6,EKF3 IMU0 MAG0 initial yaw alignment complete
+6,EKF3 IMU1 MAG0 initial yaw alignment complete
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,EKF3 IMU0 origin set
+6,EKF3 IMU1 origin set
+6,EKF3 IMU0 is using GPS
+6,EKF3 IMU1 is using GPS
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Lua: /APM/scripts/trial-3.lua:14: attempt to index
+6, a nil value (local 'position')
+6,Initialising ArduPilot
+6,Ground start
+6,Beginning INS calibration. Do not move plane
+6,Calibrating barometer
+6,Barometer 1 calibration complete
+6,Barometer 2 calibration complete
+6,Airspeed 1 calibration started
+6,ArduPilot Ready
+6,RCOut: PWM:1-14
+6,GPS 1: specified as UAVCAN1-125
+6,Airspeed 1 calibrated
+6,EKF3 IMU0 initialised
+6,EKF3 IMU1 initialised
+6,EKF3 IMU0 tilt alignment complete
+6,EKF3 IMU1 tilt alignment complete
+6,EKF3 IMU0 MAG0 initial yaw alignment complete
+6,EKF3 IMU1 MAG0 initial yaw alignment complete
+6,Scripting: stopped
+6,EKF3 IMU0 origin set
+6,EKF3 IMU1 origin set
+6,EKF3 IMU0 is using GPS
+6,EKF3 IMU1 is using GPS
+6,Scripting: restarted
+6,Flight plan received
+6,Updating barometer calibration
+6,Barometer calibration complete
+6,Airspeed 1 calibration started
+6,Airspeed 1 calibrated
+6,Arm: Roll (RC1) is not neutral
+6,Arm: Pitch (RC2) is not neutral
+6,Arm: Yaw (RC4) is not neutral
+6,Throttle armed
+6,Scripting: stopped
+6,Scripting: restarted
+6,Throttle disarmed
+6,Initialising ArduPilot
+6,Calibrating barometer
+6,Initialising ArduPilot
+6,Barometer 1 calibration complete
+6,Barometer 2 calibration complete
+6,Airspeed 1 calibration started
+6,ArduPilot Ready
+6,RCOut: PWM:1-14
+6,GPS 1: specified as UAVCAN1-125
+6,Airspeed 1 calibrated
+6,EKF3 IMU0 initialised
+6,EKF3 IMU1 initialised
+6,EKF3 IMU0 tilt alignment complete
+6,EKF3 IMU1 tilt alignment complete
+6,EKF3 IMU0 MAG0 initial yaw alignment complete
+6,EKF3 IMU1 MAG0 initial yaw alignment complete
+6,Scripting: stopped
+6,Scripting: restarted
+6,EKF3 IMU0 origin set
+6,EKF3 IMU1 origin set
+6,EKF3 IMU0 is using GPS
+6,EKF3 IMU1 is using GPS
+6,Initialising ArduPilot
+6,Ground start
+6,Beginning INS calibration. Do not move plane
+6,Calibrating barometer
+6,Barometer 1 calibration complete
+6,Barometer 2 calibration complete
+6,Airspeed 1 calibration started
+6,ArduPilot Ready
+6,Lua: /APM/scripts/disarm_modified.lua:14: attempt
+6,to index a nil value (local 'position')
+6,RCOut: PWM:1-14
+6,GPS 1: specified as UAVCAN1-125
+6,Airspeed 1 calibrated
+6,EKF3 IMU0 initialised
+6,EKF3 IMU1 initialised
+6,EKF3 IMU0 tilt alignment complete
+6,EKF3 IMU1 tilt alignment complete
+6,EKF3 IMU0 MAG0 initial yaw alignment complete
+6,EKF3 IMU1 MAG0 initial yaw alignment complete
+6,Lua: /APM/scripts/disarm_modified.lua:14: attempt
+6,to index a nil value (local 'position')
+6,EKF3 IMU0 origin set
+6,EKF3 IMU1 origin set
+6,EKF3 IMU0 is using GPS
+6,EKF3 IMU1 is using GPS
+6,Scripting: stopped
+6,Scripting: restarted

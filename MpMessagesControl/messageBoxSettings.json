@@ -1,0 +1,87 @@
+[
+  {
+    "Settingname": "NMdisplayformat",
+    "DisplayName": "Display Format",
+    "Description": "Sets how the messages are displayed\r\nFolded - Same messages are displayed once, with a counter latest message at the top\r\nFoldedWithSeverity - Same as folder but messages are sorted by severity then by time\r\n Unfolded - All messages are displayed in the order they were received, without grupping\r\n",
+    "FieldType": "List",
+    "DefaultValue": "Folded",
+    "FixValues": [
+      "Folded",
+      "FoldedWithSeverity",
+      "Unfolded"
+    ],
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent" : "True"
+  },
+  {
+    "Settingname": "NMmaxlines",
+    "DisplayName": "Maximum number of lines",
+    "Description": "Set the maximum number of lines kept in the message box,\r\nwhen it is reached, oldes messages will be deleted.\r\nDecreasing is helps on small machines to cut update time",
+    "FieldType": "Number",
+    "DefaultValue": "1000",
+    "FixValues": null,
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "True"
+  },
+  {
+    "Settingname": "NMcolormode",
+    "DisplayName": "Color Mode",
+    "Description": "Dark / Light display color for the messages box",
+    "FieldType": "List",
+    "DefaultValue": "Dark",
+    "FixValues": [
+      "Dark",
+      "Light"
+    ],
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "True"
+  },
+  {
+    "Settingname": "NMallowdeleteall",
+    "DisplayName": "Allow Delete All",
+    "Description": "Enable Delete button when ALL messages are displayed",
+    "FieldType": "Boolean",
+    "DefaultValue": "False",
+    "FixValues": null,
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "True"
+  },
+  {
+    "Settingname": "NMdeleteIgnoreList",
+    "DisplayName": "Clear ignore list",
+    "Description": "Clear the Ignored messages list, they will be displayed again",
+    "FieldType": "Boolean",
+    "DefaultValue": "False",
+    "FixValues": null,
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "False"
+  },
+  {
+    "Settingname": "NMdetachpanel",
+    "DisplayName": "Detach messages tab",
+    "Description": "Messages tab will be shown in a spearated window\r\nYou can reattach the tab by uncheking this option\r\nor by closing the form.",
+    "FieldType": "Boolean",
+    "DefaultValue": "False",
+    "FixValues": null,
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "True"
+  },
+  {
+    "Settingname": "NMzoom",
+    "DisplayName": "Messages zoom level",
+    "Description": "Zoom level of the texbox displaying the messages\r\nmin50% max 250%",
+    "FieldType": "Number",
+    "DefaultValue": "100",
+    "FixValues": null,
+    "RangeMin": 50,
+    "RangeMax": 250,
+    "Persistent": "True"
+  }
+
+]
