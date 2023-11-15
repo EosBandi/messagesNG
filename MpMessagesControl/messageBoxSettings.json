@@ -75,7 +75,7 @@
   {
     "Settingname": "NMdetachpanel",
     "DisplayName": "Detach messages tab",
-    "Description": "Messages tab will be shown in a spearated window\r\nYou can reattach the tab by uncheking this option\r\nor by closing the form.",
+    "Description": "Messages tab will be shown in a separated window\r\nYou can reattach the tab by uncheck this option\r\nor by closing the form.",
     "FieldType": "Boolean",
     "DefaultValue": "False",
     "FixValues": null,
@@ -86,7 +86,7 @@
   {
     "Settingname": "NMzoom",
     "DisplayName": "Messages zoom level",
-    "Description": "Zoom level of the texbox displaying the messages\r\nmin50% max 250%",
+    "Description": "Zoom level of the textbox displaying the messages\r\nmin50% max 250%",
     "FieldType": "Number",
     "DefaultValue": "100",
     "FixValues": null,
