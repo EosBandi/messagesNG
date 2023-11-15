@@ -2,7 +2,7 @@
   {
     "Settingname": "NMdisplayformat",
     "DisplayName": "Display Format",
-    "Description": "Sets how the messages are displayed\r\nFolded - Same messages are displayed once, with a counter latest message at the top\r\nFoldedWithSeverity - Same as folder but messages are sorted by severity then by time\r\n Unfolded - All messages are displayed in the order they were received, without grupping\r\n",
+    "Description": "Sets how the messages are displayed\r\nFolded - Same messages are displayed once, with a counter. Latest message at the top\r\nFoldedWithSeverity - Same as folder but messages are sorted by severity then by time\r\n Unfolded - All messages are displayed in the order they were received, without grouping\r\n",
     "FieldType": "List",
     "DefaultValue": "Folded",
     "FixValues": [
@@ -12,12 +12,12 @@
     ],
     "RangeMin": 0.0,
     "RangeMax": 0.0,
-    "Persistent" : "True"
+    "Persistent": "True"
   },
   {
     "Settingname": "NMmaxlines",
     "DisplayName": "Maximum number of lines",
-    "Description": "Set the maximum number of lines kept in the message box,\r\nwhen it is reached, oldes messages will be deleted.\r\nDecreasing is helps on small machines to cut update time",
+    "Description": "Set the maximum number of lines kept in the message box,\r\nwhen it is reached, older message will be deleted.\r\nDecreasing is helps on small machines to cut update time",
     "FieldType": "Number",
     "DefaultValue": "1000",
     "FixValues": null,
@@ -35,6 +35,17 @@
       "Dark",
       "Light"
     ],
+    "RangeMin": 0.0,
+    "RangeMax": 0.0,
+    "Persistent": "True"
+  },
+  {
+    "Settingname": "NMshowmavlinkseverity",
+    "DisplayName": "Show MAVLink Severity",
+    "Description": "Show mavlink severity in brackets after the time",
+    "FieldType": "Boolean",
+    "DefaultValue": "False",
+    "FixValues": null,
     "RangeMin": 0.0,
     "RangeMax": 0.0,
     "Persistent": "True"

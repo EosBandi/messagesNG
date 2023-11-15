@@ -106,6 +106,8 @@ namespace MessagesNGPlugin
             return true;     //If it is false plugin will not start (loop will not called)
         }
 
+        //Called when the settings save button is clicked
+        //Process all settings and update the UI and save the new values to the config.xml
         private void settingsSaveClick(object sender, EventArgs e)
         {
             var settings = mpMessagesControl.settings.getSettingsTable();
@@ -204,6 +206,17 @@ namespace MessagesNGPlugin
                             try
                             {
                                 mpMessagesControl.setZoom(value);
+                            }
+                            catch (Exception ex)
+                            { }
+                            break;
+                        }
+                    case "NMshowmavlinkseverity":
+                        {
+                            bool value = bool.TryParse(i.value, out value) ? value : false;
+                            try
+                            {
+                                mpMessagesControl.setShowMavlinkSeverity(value);
                             }
                             catch (Exception ex)
                             { }

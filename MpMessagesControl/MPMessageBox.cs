@@ -58,6 +58,8 @@ namespace MPMessageControlBoxNS
 
         public int MaxMessages { get; set; }
 
+        public bool ShowMavlinkSeverity { get; set; }
+
         public ColorMode ColorMode
         {
             get { return _colorMode; }
@@ -253,6 +255,7 @@ namespace MPMessageControlBoxNS
 
             ColorMode = ColorMode.Dark;
             MaxMessages = 1000;
+            ShowMavlinkSeverity = false;
         }
 
         public void addMessage(GCSMessage msg)
@@ -423,7 +426,9 @@ namespace MPMessageControlBoxNS
                         break;
                 }
 
-                String Text = line.Msg.LastSeen.ToString("hh:mm:ss") + "(" + line.Msg.Severity.ToString() + ")[" + line.Msg.occurences.Count.ToString() + "] " + line.Msg.Text;
+                String Text = line.Msg.LastSeen.ToString("hh:mm:ss");
+                if (ShowMavlinkSeverity) Text = Text + "(" + line.Msg.Severity.ToString() + ")";
+                Text = Text + "[" + line.Msg.occurences.Count.ToString() + "] " + line.Msg.Text;
                 e.Graphics.DrawString(Text, Font, textColor, x, y);
             }
 

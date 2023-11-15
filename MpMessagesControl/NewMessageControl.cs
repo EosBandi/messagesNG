@@ -99,7 +99,10 @@ namespace MpMessagesControl
         {
             mpMessageControlBox1.MaxMessages = l;
         }   
-
+        public void setShowMavlinkSeverity(bool b)
+        {
+            mpMessageControlBox1.ShowMavlinkSeverity = b;
+        }
         public int getZoom()
         {
             return mpMessageControlBox1.Zoom;
