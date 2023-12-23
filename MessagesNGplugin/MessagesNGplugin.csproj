@@ -38,9 +38,6 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="$(SolutionDir)ExtLibs\BaseClasses\BaseClasses.csproj">
       <Project>{2a8e8af5-74e7-49db-a42e-9360fa7a6cc4}</Project>
       <Name>BaseClasses</Name>
