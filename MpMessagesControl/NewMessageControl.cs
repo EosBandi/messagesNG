@@ -74,10 +74,22 @@ namespace MpMessagesControl
             return mpMessageControlBox1.getLastNMessages(num);
         }
 
-        public void AddNewMessage(GCSMessage msg)
+        public void AddNewMessageWithRefresh(GCSMessage msg)
         {
-            mpMessageControlBox1.addMessage(msg);
+            mpMessageControlBox1.addMessageWithRefresh(msg);
         }
+
+        public void AddNewMessageWithoutRefresh(GCSMessage msg)
+        {
+            mpMessageControlBox1.addMessageWithoutRefresh(msg);
+        }
+
+
+        public void UpdateLines()
+        {
+            mpMessageControlBox1.updateLines();
+        }
+
         public void clearIgnoreList()
         {
             mpMessageControlBox1.clearIgnoreList();

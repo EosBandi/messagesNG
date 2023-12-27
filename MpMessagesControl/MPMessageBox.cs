@@ -258,13 +258,28 @@ namespace MPMessageControlBoxNS
             ShowMavlinkSeverity = false;
         }
 
-        public void addMessage(GCSMessage msg)
+        public void addMessageWithRefresh(GCSMessage msg)
         {
             //To keep it fast, delete the oldest message if we have more than 1000
             if (msgStore.getCount() > MaxMessages) msgStore.deleteOldestMessage();
             msgStore.AddMessage(msg);
             refreshLines();
         }
+
+        public void addMessageWithoutRefresh(GCSMessage msg)
+        {
+            //To keep it fast, delete the oldest message if we have more than 1000
+            if (msgStore.getCount() > MaxMessages) msgStore.deleteOldestMessage();
+            msgStore.AddMessage(msg);
+        }
+
+
+        public void updateLines()
+        {
+            if (msgStore.getCount() > MaxMessages) msgStore.deleteOldestMessage();
+            refreshLines();
+        }
+
 
         public void deleteAllMessages(SeverityLevels severity)
         {
