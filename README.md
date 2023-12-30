@@ -71,6 +71,19 @@ The zoom level of the textbox displaying the messages min 50% max 250%
 ## Installation ##
 Go to releases and download the latest binary release pack. Unpack it to your Program Files(x86)\Mission Planner\plugins folder. The next start, you will have messagesNG as a new tab.
 
+### Windows security issues. ###
+Since a latest windows update, it seems that dll files downloaded from github or other sources are marked insecure by default. This prevents loading downloaded plugins.
+
+To solve this issue you have to install plugin files in the following way.
+
+- Download the files from github
+- Extract the archive to a separated directory
+- Right Click and select properties for every dll files.
+- If you see the Security warning at the bottom of the window, select unblock and press OK.
+- When done, copy all files to the Mission Planner/plugins folder.
+
+![image](https://github.com/EosBandi/messagesNG/assets/11500559/cc9a806d-1806-487a-b460-1b304dfd9ad8)
+
 ## Build your own ##
 Make sure that you have a working Mission Planner build environment.
 Clone the repository into a directory that is the same level as your Mission Planner repository, not into your Mission Planner source folder.
